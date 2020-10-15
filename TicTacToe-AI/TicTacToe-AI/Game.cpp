@@ -5,7 +5,6 @@
 
 #include "Player.h"
 #include "MiniMaxAI.h"
-#include "AlphaBeta.h"
 
 Contestant* Game::CurrentPlayer = nullptr;
 Contestant* Game::Opponent = nullptr;
@@ -16,7 +15,7 @@ void Game::MainMenu()
     std::cout << "\x1B[2J\x1B[H";
     std::cout << "Welcome to TicTacToe" << std::endl;
     std::cout << "1: Play against another player." << std::endl;
-    std::cout << "2: Play against AI. -Not implemented yet." << std::endl;
+    std::cout << "2: Play against AI." << std::endl;
     std::cout << "3: Exit Game." << std::endl;
 
     int input = -1;
@@ -32,13 +31,11 @@ void Game::MainMenu()
     switch (input)
     {
     case 1:
-		std::cout << "Play against another player.\n";
 		SetupGame(new Player(), new Player());
 		DisplayMainMenu = false;
         GameRunning = true;
         break;
     case 2:
-		std::cout << "Play against AI.\n";
 		SetupGame(new Player(), new MiniMaxAI());
 		DisplayMainMenu = false;
         GameRunning = true;

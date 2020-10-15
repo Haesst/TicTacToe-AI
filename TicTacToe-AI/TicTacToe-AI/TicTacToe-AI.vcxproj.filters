@@ -33,9 +33,6 @@
     <ClCompile Include="MiniMaxAI.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="AlphaBeta.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Contestant.h">
@@ -54,9 +51,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="MiniMaxAI.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="AlphaBeta.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -141,7 +141,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="AlphaBeta.cpp" />
     <ClCompile Include="Contestant.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="MiniMaxAI.cpp" />
@@ -150,7 +149,6 @@
     <ClCompile Include="TTVector.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AlphaBeta.h" />
     <ClInclude Include="Contestant.h" />
     <ClInclude Include="FieldSquare.h" />
     <ClInclude Include="Game.h" />

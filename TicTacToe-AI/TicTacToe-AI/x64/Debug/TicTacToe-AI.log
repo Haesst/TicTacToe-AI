@@ -1,9 +1,2 @@
-﻿  AlphaBeta.cpp
-  Contestant.cpp
-  Game.cpp
-  MiniMaxAI.cpp
-  Player.cpp
-  TicTacToe-AI.cpp
-  TTVector.cpp
-  Generating Code...
+﻿  Game.cpp
   TicTacToe-AI.vcxproj -> C:\Users\robin\Documents\C++\TicTacToe-AI\TicTacToe-AI\x64\Debug\TicTacToe-AI.exe

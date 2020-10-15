@@ -39,7 +39,7 @@ void Game::MainMenu()
         break;
     case 2:
 		std::cout << "Play against AI.\n";
-		SetupGame(new Player(), new AlphaBeta());
+		SetupGame(new Player(), new MiniMaxAI());
 		DisplayMainMenu = false;
         GameRunning = true;
         break;
